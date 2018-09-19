@@ -1,0 +1,422 @@
+
+
+
+
+.container {
+	width: 1280px;
+	height: 3186px;
+	border-left: 50px;
+	border-right: 50px;
+}
+/*блок Product name: h1, p, checkmark, Product img, */
+.Product {
+	width: 1180px;
+	height: 273px; 
+	background: #445162;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: #fff solid 49px;
+	border-left: #445162 solid 50px;
+	border-right: #445162 solid 50px;
+	border-top: #445162 solid 51px;
+}
+	
+.flex-product {
+	width: 590px;
+	height: 273px;
+}
+
+.flex-product h1 {
+	text-align: left;
+	font-size: 60px;
+	font-family: "Arial";
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	line-height: 0.9;
+	margin-top: 0px;
+}
+
+.flex-product li {
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.8;
+  text-align: left;
+  margin-left: -45px;
+}
+ul {
+	list-style: none;
+	
+}
+.checkmark:before {
+	content: url("../img/checkmark.png");
+	margin: 5px;	
+}
+	
+
+.flex-product figure {
+	margin-right: 0;
+	margin-top: 0;
+	float: right;
+}
+
+
+/*блок About your Product: h2, p, img */
+.About {
+	width: 1180px;
+	height: 297px; 
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: #f5f5f5 solid 49px;
+	border-left: #fff solid 50px;
+	border-right: #fff solid 50px;
+}
+.description {
+	width: 655px;
+	height: 344px;
+}
+
+.description h2 {
+  font-size: 30px;
+  font-family: "Arial";
+  color: rgb(68, 81, 97);
+  line-height: 0.2;
+  text-align: left;
+}
+
+.description p {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.video img {
+	margin-right: 0;
+	margin-top: 0;
+	float: right;
+}
+.video {
+	width: 525px;
+	height: 246px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*блок Dignity and pluses Product: h2, Dignity, .flexplus img, .flexplus */
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Arial";
+	color: rgb(68, 81, 97);
+	line-height: 1.2;
+}
+
+
+.Dignity {
+	width: 1180px;
+	height: 419px; 
+	background: #f5f5f5;
+	display: flex;
+	flex-wrap: wrap;
+	border-left: #f5f5f5 solid 50px;
+	border-right: #f5f5f5 solid 50px;
+	/*border-top: #f5f5f5 solid 49px;*/
+	/*border-bottom: #fff 50px;* ниже д.б.белый border 50px почему то не делается */
+}
+
+.flexplus img {
+	margin-right: 10px;
+	margin-bottom: 40px;
+	float: left;
+}
+.flexplus {
+	width: 590px;
+	height: 100px;
+	font-size: 16px;
+	font-family: "Arial";
+	line-height: 1.5;
+	color: rgb(51, 51, 51);
+}
+
+.flexplus p {
+	margin: 0px;
+	padding: 0px;
+	text-align: top;
+	
+}
+
+
+
+
+/*блок Scrinshots: .Scrinshots, .flexscreen img, .flexscreen, h3 */
+
+
+.Scrinshots {
+	
+	width: 1180px;
+	height: 419px; 
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	border-left: #fff solid 50px;
+	border-right: #fff solid 50px;
+}
+.flexscrin img {
+	
+	margin-right: 15px;
+	float: left;
+	/*alighn: bottom;*/
+	margin-bottom: 20px;
+}
+.flexscrin {
+	/*position: relative;*/
+	width: 590px;
+	height: 150px;
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	line-height: 1.5;
+	margin-top: 0;
+	
+	/*text-align: top;*/
+	
+}
+
+h3 {
+	font-size: 24px;
+	font-family: "Arial";
+	color: rgb(68, 81, 97);
+	line-height: 1.25;
+	text-align: top;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.scrin {
+	background: #fff;
+}
+
+/*блок Reviews: .Reviews, .flexreview, h2  */
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Arial";
+	color: rgb(68, 81, 97);
+	line-height: 1.2;
+}
+
+.Reviews {
+	width: 1180px;
+	height: 419px; 
+	background: #f5f5f5;
+	display: flex;
+	flex-wrap: wrap;
+	border-left: #f5f5f5 solid 50px;
+	border-right: #f5f5f5 solid 50px;
+}
+
+
+.flexreview {
+	width: 590px;
+	height: 146px;
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-style: italic;
+	line-height: 1.286;
+	text-align: left;
+	position: relative;
+}
+/*.flexreview img{
+	margin-top: 25px;
+	
+	
+}*/
+.speechbubble {
+	position: relative;
+	width: 100%;
+}
+.circle {
+	margin-bottom: 45px;
+}
+.speech {
+	margin-top: 25px;
+}
+
+
+
+.flexreview p {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(51, 51, 51);
+	font-style: italic;
+	line-height: 1.286;
+	text-align: left;
+	position	: absolute;
+	top		: 20px;
+	left		: 100px;
+	right: 50px;
+	/*width		: 100%;*/
+	
+}
+
+.Lourens {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(152, 152, 152);
+	line-height: 2.0;
+	text-align: left;
+	font-style: normal;
+}
+
+/*блок Buy It:                       */
+
+.BuyIt {
+	position: relative; 
+	width: 1180px;
+	height: 558px; 
+	background: #fff;
+	border-left: #fff solid 50px;
+	border-right: #fff solid 50px;
+	border-bottom: #fff solid 50px;
+}
+
+
+.BuyIt h3 {                   /*заголовки h3*/
+	text-align: center;
+	font-size: 24px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.25;
+	
+  
+}
+.Standart {         
+	position: absolute; 
+	bottom: 0;
+	left: 96px;	
+	height: 306px;
+	width: 300px;
+	background: #445162;
+}
+
+.Premium {
+	position: absolute; 
+	bottom: 0; 
+	left: 441px;
+	height: 404px;
+	width: 300px;
+	background: #445162;
+}
+
+.Lux {
+	position: absolute; 
+	bottom: 0; 
+	left: 786px;
+	height: 500px;
+	width: 300px;
+	background: #445162;
+}
+
+
+
+.BuyIt li {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.714;
+	text-align: left;
+	margin-left: -10px;
+}
+
+.price {
+	font-size: 40px;
+	font-family: "Arial";
+	color: white;                      /*#445162*/
+	line-height: 0.75;
+	text-align: center;
+}
+
+/*блок Contacts:                       */
+
+.Contacts {
+	position: relative; 
+	width: 1180px;
+	height: 355px; 
+	background: #445162;
+	border-left: #445162 solid 50px;
+	border-right: #445162 solid 50px;
+	border-bottom: #445162 solid 49px;
+	border-top: #445162 solid 23px;		
+}
+.Contacts h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Arial";
+	color: #fff;
+	line-height: 1.2;
+
+}
+.InputData {
+	position: absolute;
+	height: 355px;
+	width: 500px;
+	margin-left: 200px;
+	
+}
+input[type="text"], input[type="Email"]  {
+	height: 40px;
+	width: 500px;
+	border-radius: 5px;
+}
+textarea[name="text"] {
+	height: 170px;
+	width: 500px;
+	border-radius: 5px;
+}
+input[type="button"] {
+	height: 40px;
+	width: 140px;
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	outline: none; 
+	text-align: center;
+}
+.ContactUs {
+	position: absolute;
+	height: 250px;
+	width: 238px;
+	margin-left: 743px;
+}
+.skype:before {
+	content: url("../img/skype.png");
+	margin: 5px;	
+}
+
+.icq:before {
+	content: url("../img/icq.png");
+	margin: 5px;	
+}
+
+.email:before {
+	content: url("../img/email.png");
+	margin: 5px;	
+}
+
+.phone:before {
+	content: url("../img/phone.png");
+	margin: 5px;	
+}
